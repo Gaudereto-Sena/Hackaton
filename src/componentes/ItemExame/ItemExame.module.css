@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    font-size: 1.4em;
 }
 
 .item a:visited,
