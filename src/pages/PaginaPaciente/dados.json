@@ -1,0 +1,239 @@
+{
+    "paciente": [
+        {
+            "id_paciente": 1,
+            "nome_paciente": "Cláudio",
+            "data_nascimento": "20/04/2005",
+            "tipo_sanguineo": "o+",
+            "habitos": [
+                "correr",
+                "fumar",
+                "dançar"
+            ],
+            "alergias": null,
+            "cirurgias": null,
+            "doencas": [
+                {
+                    "nome": "hipertenso",
+                    "estado": true
+                },
+                {
+                    "nome": "diabetico",
+                    "estado": false
+                },
+                {
+                    "nome": "hepatite",
+                    "estado": true
+                },
+                {
+                    "nome": "alzheimer",
+                    "estado": false
+                }
+            ],
+            "moradia": {
+                "cep": "38401-264",
+                "bairro": "Santa Rosa",
+                "rua": "Rua Noel Rosa",
+                "numero_da_casa": "425"
+            },
+            "exames": [
+                {
+                    "tipo": "Exame de sangue",
+                    "data": "15/02/2022",
+                    "laudo": "definir grau da hepatite",
+                    "url": "https://s2.glbimg.com/ZOWe3X0R46uxe-YXO4sPvwfUvWw=/0x0:1700x1883/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/q/f/rpHyMgS8GehezXJNroKA/exames.jpg"
+                },
+                {
+                    "tipo": "Exame de endoscopia",
+                    "data": "15/02/2022",
+                    "laudo": "definir grau da hepatite",
+                    "url": "https:/..."
+                },
+                {
+                    "tipo": "Exame de tomografia",
+                    "data": "15/02/2022",
+                    "laudo": "definir grau da hepatite",
+                    "url": "https:/..."
+                },
+                {
+                    "tipo": "Ultrasonografia",
+                    "data": "15/02/2022",
+                    "laudo": "definir grau da hepatite",
+                    "url": "https:/..."
+                },
+                {
+                    "tipo": "Exame de sangue",
+                    "data": "15/02/2022",
+                    "laudo": "definir grau da hepatite",
+                    "url": "https:/..."
+                }
+            ],
+            "laudos": [
+                {
+                    "tipo": "Consulta",
+                    "hospital": "Albert Sabin",
+                    "data": "15/02/2022",
+                    "laudo": "Consulta rotineira",
+                    "url": "https:/..."
+                },
+                {
+                    "tipo": "Consulta",
+                    "hospital": "Santa Casa",
+                    "data": "01/01/2023",
+                    "laudo": "Consulta rotineira",
+                    "url": "https:/..."
+                }
+            ],
+            "contatos_de_emergencia": [
+                {
+                    "relacao": "mãe",
+                    "nuemro": "(32)99154-2035"
+                },
+                {
+                    "relacao": "irmão",
+                    "nuemro": "(32)99484-2855"
+                }
+            ],
+            "cpf": "000.000.000-00",
+            "RG": "MG-00.000.000",
+            "email": "claudin@gmail.com",
+            "senha": "claudiogatao58"
+        },
+        {
+            "id_paciente": 2,
+            "nome_paciente": "Alberto",
+            "data_nascimento": "15/02/2004",
+            "tipo_sanguineo": "A-",
+            "habitos": [
+                "jogar futebol",
+                "ver filmes",
+                "beber"
+            ],
+            "alergias": [
+                {
+                    "nome": "Dipirona",
+                    "estado": true
+                },
+                {
+                    "nome": "Penicilina",
+                    "estado": true
+                },
+                {
+                    "nome": "Azitromicina",
+                    "estado": false
+                }
+            ],
+            "cirurgias": null,
+            "doencas": [
+                {
+                    "nome": "hipertenso",
+                    "estado": false
+                },
+                {
+                    "nome": "diabetico",
+                    "estado": true
+                },
+                {
+                    "nome": "hepatite",
+                    "estado": false
+                },
+                {
+                    "nome": "alzheimer",
+                    "estado": false
+                }
+            ],
+            "moradia": {
+                "cep": "35703-142",
+                "bairro": "Bouganvile l",
+                "rua": "Rua Luiz Elias de Medeiros",
+                "numero_da_casa": "371"
+            },
+            "exames": [
+                {
+                    "tipo": "Exame de sangue",
+                    "data": "15/02/2022",
+                    "laudo": "definir a quantidade de glicose",
+                    "url": "https:/..."
+                }
+            ],
+            "contatos_de_emergencia": [
+                {
+                    "relacao": "mãe",
+                    "nuemro": "(32)99424-3901"
+                },
+                {
+                    "relacao": "pai",
+                    "nuemro": "(32)99917-5582"
+                }
+            ],
+            "cpf": "111.111.111-11",
+            "RG": "MG-11.111.111",
+            "email": "albertt@gmail.com",
+            "senha": "bertin57"
+        },
+        {
+            "id_paciente": 3,
+            "nome_paciente": "Maria",
+            "data_nascimento": "20/09/2014",
+            "tipo_sanguineo": "b-",
+            "habitos": [
+                "brincar",
+                "ver desenhos"
+            ],
+            "alergias": [
+                {
+                    "nome": "Dipirona",
+                    "estado": false
+                },
+                {
+                    "nome": "Penicilina",
+                    "estado": false
+                },
+                {
+                    "nome": "Azitromicina",
+                    "estado": false
+                }
+            ],
+            "cirurgias": null,
+            "doencas": [
+                {
+                    "nome": "hipertenso",
+                    "estado": false
+                },
+                {
+                    "nome": "diabetico",
+                    "estado": false
+                },
+                {
+                    "nome": "hepatite",
+                    "estado": false
+                },
+                {
+                    "nome": "alzheimer",
+                    "estado": false
+                }
+            ],
+            "moradia": {
+                "cep": "79002-916",
+                "bairro": "Centro",
+                "rua": "Rua Marechal Rondon 1925",
+                "numero_da_casa": "475"
+            },
+            "exames": null,
+            "contatos_de_emergencia": [
+                {
+                    "relacao": "mãe",
+                    "nuemro": "(32)99084-8175"
+                },
+                {
+                    "relacao": "pai",
+                    "nuemro": "(32)99917-9930"
+                }
+            ],
+            "cpf": "222.222.222-22",
+            "RG": "MG-22.222.222",
+            "email": null,
+            "senha": "marialinda"
+        }
+    ]
+}

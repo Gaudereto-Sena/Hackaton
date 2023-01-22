@@ -1,0 +1,20 @@
+.item {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.item a:visited,
+.item a {
+    color: black;
+}
+
+.item_data {
+    width: 20%;
+}
+
+.item_tipo {
+    width: 70%;
+}

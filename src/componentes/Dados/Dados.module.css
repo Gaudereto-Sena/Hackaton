@@ -1,0 +1,29 @@
+.dados {
+    min-height: 350px;
+    max-height: 100%;
+    padding-top: 32px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: start;
+    position: relative;
+}
+
+.botao_adicionar {
+    width: 230px;
+    padding: 24px;
+    background-color: #00C4CC;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 15px;
+    transition: all 200ms linear;
+    
+}
+
+.botao_adicionar:hover {
+    background-color: rgba(0, 197, 204, 0.527);
+}

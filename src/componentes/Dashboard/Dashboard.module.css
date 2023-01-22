@@ -1,0 +1,42 @@
+.dashboard {
+    margin: 64px 10%;
+}
+
+.dashboard_abas {
+    display: flex;
+}
+
+.dashboard_abas ul {
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dashboard_abas ul li {
+    width: 150px;
+    text-align: center;
+    padding: 10px 16px;
+    margin: 0 24px;
+    background-color: #BDBDBD;
+}
+
+.dashboard_abas ul li:first-child {
+    margin-left: 0;
+}
+
+
+.dashboard_abas ul li.active {
+
+    background-color: #F1F1F1;
+}
+
+.abas {}
+
+.dashboard_corpo {
+    min-height: ;
+    padding: 0 10%;
+    background-color: #F1F1F1;
+}
