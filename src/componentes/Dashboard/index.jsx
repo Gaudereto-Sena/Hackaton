@@ -9,7 +9,7 @@ const Dashboard = ({ children, isPaginaAtiva, funcaoOnClick }) => {
       <div className={styles.dashboard_abas}>
         <ul>
           <li className={isPaginaAtiva[0] ? `${styles.abas} ${styles.active}` : `${styles.abas}`} onClick={() => funcaoOnClick('perfil')}>Perfil</li>
-          <li className={isPaginaAtiva[1] ? `${styles.abas} ${styles.active}` : `${styles.abas}`} onClick={() => funcaoOnClick('laudos')}>Laudos</li>
+          <li className={isPaginaAtiva[1] ? `${styles.abas} ${styles.active}` : `${styles.abas}`} onClick={() => funcaoOnClick('laudos')}>Diagnosticos</li>
           <li className={isPaginaAtiva[2] ? `${styles.abas} ${styles.active}` : `${styles.abas}`} onClick={() => funcaoOnClick('exames')}>Exames</li>
         </ul>
       </div>

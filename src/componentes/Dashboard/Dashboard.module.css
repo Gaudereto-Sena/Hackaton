@@ -29,14 +29,13 @@
 
 
 .dashboard_abas ul li.active {
-
     background-color: #F1F1F1;
 }
 
 .abas {}
 
 .dashboard_corpo {
-    min-height: ;
+    min-height: 500px;
     padding: 0 10%;
     background-color: #F1F1F1;
 }

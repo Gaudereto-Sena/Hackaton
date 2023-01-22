@@ -1,0 +1,47 @@
+.formulario {
+    width: 100%;
+    color: black;
+}
+
+.formulario textarea {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+
+.formulario select {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: start;
+    color: black;
+}
+
+.formulario #botao_adicionar {
+    left: 0;
+    width: 230px;
+    padding: 24px;
+    background-color: #00C4CC;
+    color: white;
+}
+
+#botao_adicionar:hover {
+    background-color: rgba(0, 197, 204, 0.527);
+}

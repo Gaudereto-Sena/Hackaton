@@ -7,9 +7,9 @@ const ItemExame = ({ dadosExame }) => {
     }
     return (
         <div className={styles.item}>
-            <p className={styles.item_data}>{dadosExame.data}</p>
+            <p className={styles.item_data}>{dadosExame.data_exame}</p>
             <p className={styles.item_tipo}>{dadosExame.tipo}</p>
-            <a className={styles.item_icon} onClick={() => abrirExame(dadosExame.url)} href={dadosExame.url}><HiOutlineClipboardList /></a>
+            <a className={styles.item_icon} onClick={() => abrirExame(dadosExame.url)} href={dadosExame.url} target='_blank'><HiOutlineClipboardList /></a>
         </div>
     )
 }

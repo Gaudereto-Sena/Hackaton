@@ -1,0 +1,44 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: #00C4CC;
+}
+
+.middle ul {
+    list-style: none;
+    display: flex;
+}
+
+.middle ul li {
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+}
+
+.middle ul li:hover {
+    border-bottom: 1px solid black;
+}
+
+.logout {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.logoImg {
+    width: 100px;
+}

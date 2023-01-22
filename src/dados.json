@@ -1,0 +1,620 @@
+{
+  "pacientes": [
+    {
+      "id": 1,
+      "nome_paciente": "Cláudio",
+      "data_nascimento": "20/04/2005",
+      "tipo_sanguineo": "O+",
+      "habitos": [
+        "Correr",
+        "Fumar",
+        "Dançar"
+      ],
+      "alergias": null,
+      "cirurgias": null,
+      "doencas": [
+        {
+          "nome": "Hipertenso",
+          "estado": true
+        },
+        {
+          "nome": "diabetico",
+          "estado": false
+        },
+        {
+          "nome": "hepatite",
+          "estado": true
+        },
+        {
+          "nome": "alzheimer",
+          "estado": false
+        }
+      ],
+      "moradia": {
+        "cep": "38401-264",
+        "bairro": "Santa Rosa",
+        "rua": "Rua Noel Rosa",
+        "numero_da_casa": "425"
+      },
+      "exames": [
+        {
+          "tipo": "Exame de sangue",
+          "data_exame": "18/0/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "exame de urina",
+          "data_exame": "15/02/2020",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "exame de urina",
+          "data_exame": "15/02/2023",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "endoscopia",
+          "data_exame": "10/09/2021",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Eletrocardiograma",
+          "data_exame": "22/07/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        }
+      ],
+      "diagnostico": [
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "18/0/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "15/02/2020",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Emergência",
+          "data_diagnostico": "15/02/2023",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "10/09/2021",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "22/07/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        }
+      ],
+      "contatos_de_emergencia": [
+        {
+          "relacao": "mãe",
+          "nuemro": "(32)99154-2035"
+        },
+        {
+          "relacao": "irmão",
+          "nuemro": "(32)99484-2855"
+        }
+      ],
+      "cpf": "000.000.000-00",
+      "RG": "MG-00.000.000",
+      "email": "claudin@gmail.com",
+      "senha": "claudiogatao58"
+    },
+    {
+      "id": 2,
+      "nome_paciente": "Alberto",
+      "data_nascimento": "15/02/2004",
+      "tipo_sanguineo": "A-",
+      "habitos": [
+        "jogar futebol",
+        "ver filmes",
+        "beber"
+      ],
+      "alergias": [
+        {
+          "nome": "Dipirona",
+          "estado": true
+        },
+        {
+          "nome": "Penicilina",
+          "estado": true
+        },
+        {
+          "nome": "Azitromicina",
+          "estado": false
+        }
+      ],
+      "cirurgias": null,
+      "doencas": [
+        {
+          "nome": "hipertenso",
+          "estado": false
+        },
+        {
+          "nome": "diabetico",
+          "estado": true
+        },
+        {
+          "nome": "hepatite",
+          "estado": false
+        },
+        {
+          "nome": "alzheimer",
+          "estado": false
+        }
+      ],
+      "moradia": {
+        "cep": "35703-142",
+        "bairro": "Bouganvile l",
+        "rua": "Rua Luiz Elias de Medeiros",
+        "numero_da_casa": "371"
+      },
+      "exames": [
+        {
+          "tipo": "Exame de sangue",
+          "data_exame": "15/02/2022",
+          "diagnostico": "definir a quantidade de glicose",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Exame de sangue",
+          "data_exame": "18/0/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "exame de urina",
+          "data_exame": "15/02/2020",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "exame de urina",
+          "data_exame": "15/02/2023",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "endoscopia",
+          "data_exame": "10/09/2021",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Eletrocardiograma",
+          "data_exame": "22/07/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        }
+      ],
+      "diagnostico": [
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "18/0/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "15/02/2020",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Emergência",
+          "data_diagnostico": "15/02/2023",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "10/09/2021",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "22/07/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        }
+      ],
+      "contatos_de_emergencia": [
+        {
+          "relacao": "mãe",
+          "nuemro": "(32)99424-3901"
+        },
+        {
+          "relacao": "pai",
+          "nuemro": "(32)99917-5582"
+        }
+      ],
+      "cpf": "111.111.111-11",
+      "RG": "MG-11.111.111",
+      "email": "albertt@gmail.com",
+      "senha": "bertin57",
+      "paciente": {
+        "id": 2,
+        "nome_paciente": "Alberto",
+        "data_nascimento": "15/02/2004",
+        "tipo_sanguineo": "A-",
+        "habitos": [
+          "jogar futebol",
+          "ver filmes",
+          "beber",
+          "fumante"
+        ],
+        "alergias": [
+          {
+            "nome": "Dipirona",
+            "estado": true
+          },
+          {
+            "nome": "Penicilina",
+            "estado": true
+          },
+          {
+            "nome": "Azitromicina",
+            "estado": false
+          }
+        ],
+        "cirurgias": null,
+        "doencas": [
+          {
+            "nome": "hipertenso",
+            "estado": false
+          },
+          {
+            "nome": "diabetico",
+            "estado": true
+          },
+          {
+            "nome": "hepatite",
+            "estado": false
+          },
+          {
+            "nome": "alzheimer",
+            "estado": false
+          }
+        ],
+        "moradia": {
+          "cep": "35703-142",
+          "bairro": "Bouganvile l",
+          "rua": "Rua Luiz Elias de Medeiros",
+          "numero_da_casa": "371"
+        },
+        "exames": [
+          {
+            "tipo": "Exame de sangue",
+            "data_exame": "15/02/2022",
+            "diagnostico": "definir a quantidade de glicose",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "Exame de sangue",
+            "data_exame": "18/0/2022",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "exame de urina",
+            "data_exame": "15/02/2020",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "exame de urina",
+            "data_exame": "15/02/2023",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "endoscopia",
+            "data_exame": "10/09/2021",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "Eletrocardiograma",
+            "data_exame": "22/07/2022",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          }
+        ],
+        "diagnostico": [
+          {
+            "tipo": "Consulta",
+            "data_diagnostico": "18/0/2022",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "Consulta",
+            "data_diagnostico": "15/02/2020",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "Emergência",
+            "data_diagnostico": "15/02/2023",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "Consulta",
+            "data_diagnostico": "10/09/2021",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          },
+          {
+            "tipo": "Consulta",
+            "data_diagnostico": "22/07/2022",
+            "diagnostico": "exame de rotina",
+            "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+          }
+        ],
+        "contatos_de_emergencia": [
+          {
+            "relacao": "mãe",
+            "nuemro": "(32)99424-3901"
+          },
+          {
+            "relacao": "pai",
+            "nuemro": "(32)99917-5582"
+          }
+        ],
+        "cpf": "111.111.111-11",
+        "RG": "MG-11.111.111",
+        "email": "albertt@gmail.com",
+        "senha": "bertin57",
+        "paciente": {
+          "id": 2,
+          "nome_paciente": "Alberto",
+          "data_nascimento": "15/02/2004",
+          "tipo_sanguineo": "A-",
+          "habitos": [
+            "jogar futebol",
+            "ver filmes",
+            "beber",
+            "Fumante",
+            "teste"
+          ],
+          "alergias": [
+            {
+              "nome": "Dipirona",
+              "estado": true
+            },
+            {
+              "nome": "Penicilina",
+              "estado": true
+            },
+            {
+              "nome": "Azitromicina",
+              "estado": false
+            }
+          ],
+          "cirurgias": null,
+          "doencas": [
+            {
+              "nome": "hipertenso",
+              "estado": false
+            },
+            {
+              "nome": "diabetico",
+              "estado": true
+            },
+            {
+              "nome": "hepatite",
+              "estado": false
+            },
+            {
+              "nome": "alzheimer",
+              "estado": false
+            }
+          ],
+          "moradia": {
+            "cep": "35703-142",
+            "bairro": "Bouganvile l",
+            "rua": "Rua Luiz Elias de Medeiros",
+            "numero_da_casa": "371"
+          },
+          "exames": [
+            {
+              "tipo": "Exame de sangue",
+              "data_exame": "15/02/2022",
+              "diagnostico": "definir a quantidade de glicose",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "Exame de sangue",
+              "data_exame": "18/0/2022",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "exame de urina",
+              "data_exame": "15/02/2020",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "exame de urina",
+              "data_exame": "15/02/2023",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "endoscopia",
+              "data_exame": "10/09/2021",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "Eletrocardiograma",
+              "data_exame": "22/07/2022",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            }
+          ],
+          "diagnostico": [
+            {
+              "tipo": "Consulta",
+              "data_diagnostico": "18/0/2022",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "Consulta",
+              "data_diagnostico": "15/02/2020",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "Emergência",
+              "data_diagnostico": "15/02/2023",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "Consulta",
+              "data_diagnostico": "10/09/2021",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            },
+            {
+              "tipo": "Consulta",
+              "data_diagnostico": "22/07/2022",
+              "diagnostico": "exame de rotina",
+              "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+            }
+          ],
+          "contatos_de_emergencia": [
+            {
+              "relacao": "mãe",
+              "nuemro": "(32)99424-3901"
+            },
+            {
+              "relacao": "pai",
+              "nuemro": "(32)99917-5582"
+            }
+          ],
+          "cpf": "111.111.111-11",
+          "RG": "MG-11.111.111",
+          "email": "albertt@gmail.com",
+          "senha": "bertin57"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "nome_paciente": "Maria",
+      "data_nascimento": "20/09/2014",
+      "tipo_sanguineo": "b-",
+      "habitos": [
+        "Brincar",
+        "Ver desenhos"
+      ],
+      "alergias": [
+        {
+          "nome": "Dipirona",
+          "estado": false
+        },
+        {
+          "nome": "Penicilina",
+          "estado": true
+        },
+        {
+          "nome": "Azitromicina",
+          "estado": false
+        }
+      ],
+      "cirurgias": null,
+      "doencas": [
+        {
+          "nome": "hipertenso",
+          "estado": false
+        },
+        {
+          "nome": "diabetico",
+          "estado": true
+        },
+        {
+          "nome": "hepatite",
+          "estado": false
+        },
+        {
+          "nome": "alzheimer",
+          "estado": false
+        }
+      ],
+      "moradia": {
+        "cep": "79002-916",
+        "bairro": "Centro",
+        "rua": "Rua Marechal Rondon 1925",
+        "numero_da_casa": "475"
+      },
+      "exames": null,
+      "diagnostico": [
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "18/0/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "15/02/2020",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Emergência",
+          "data_diagnostico": "15/02/2023",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "10/09/2021",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        },
+        {
+          "tipo": "Consulta",
+          "data_diagnostico": "22/07/2022",
+          "diagnostico": "exame de rotina",
+          "url": "https://s1.livrozilla.com/store/data/000925158_1-f653135775a56de827f527e950a69caf.png"
+        }
+      ],
+      "contatos_de_emergencia": [
+        {
+          "relacao": "mãe",
+          "nuemro": "(32)99084-8175"
+        },
+        {
+          "relacao": "pai",
+          "nuemro": "(32)99917-9930"
+        }
+      ],
+      "cpf": "222.222.222-22",
+      "RG": "MG-22.222.222",
+      "email": null,
+      "senha": "marialinda"
+    }
+  ]
+}

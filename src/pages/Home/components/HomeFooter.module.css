@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    background-color: #00C4CC;
+    font-size: 20px;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer p span{
+    color: white;
+}

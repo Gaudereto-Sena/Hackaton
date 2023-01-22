@@ -1,5 +1,4 @@
 import React from 'react'
-import Avatar from '../../componentes/Avatar'
 import TextField from '../../componentes/TextField'
 import styles from './FormAdd.module.css'
 import Button from '../../componentes/Button'
@@ -26,20 +25,7 @@ const FormAdd = () => {
 
     return (
         <div className={styles.register}>
-            <Avatar
-                id={styles.background_register_image}
-                isBackgroundImage={true}
-                image={''}
-                backgroundSize="cover"
-                containerEstiloInline={{
-                    height: "100%",
-                    width: "100%",
-                }}
-                hasMask={true}
-                maskStyle={{
-                    backgroundImage: "linear-gradient(to right, transparent,transparent,transparent,transparent, var(--cor-fundo))"
-                }}
-            />
+     
             <div className={styles.register_form_container}>
 
                 <form onSubmit={(event) => registrar(event)}>

@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+.headerProfile {
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding: 75px 0 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    padding: 16px 20px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+.profile p {
+    margin-right: 40px;
+}

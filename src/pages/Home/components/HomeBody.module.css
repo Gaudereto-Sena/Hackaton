@@ -1,0 +1,44 @@
+.body{
+    background-image: url("../images/backgroundImage.png");
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form{
+    padding-top: 12rem;
+}
+
+.input{
+    padding: 13px;
+    border-radius: 15px;
+    width: 35rem;
+    border: transparent;
+    font-size: 2rem;
+    background-color: #BEBEBE;
+}
+
+
+.btnBuscar{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+    border: transparent 1px solid;
+    font-size: 1.8rem;
+    background-color: #BEBEBE;
+    margin: 0.1em;
+}
+
+.btnBuscar:hover{
+    border: 1px solid black;
+}
+
+.found{
+    color: red;
+    font-size: 25px;
+    font-weight: 500;
+}
+

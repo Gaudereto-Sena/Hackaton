@@ -5,13 +5,14 @@
     font-size: 16px;
     transition: all 100ms linear;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 15px;
     position: absolute;
     bottom: 32px;
     right: 0;
     padding: 0;
     
 }
+
 .button:hover{
     background-color: rgba(0, 197, 204, 0.527);
 }
